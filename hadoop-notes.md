@@ -33,3 +33,11 @@ MRCode:
  - Hadoop Streaming - Can write in any language
  - Reducer - add everything up
  
+Patterns
+ - Filtering - simple, random sampling, bloom
+ - Summarizing
+ - Structural
+ - Top N - each mapper selects the local top 10, then reducer selects global top 10
+ - inverted index - 
+ - combiners - pre-reduction
+ - RMDBS > Hadoop
